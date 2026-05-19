@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       description: "Completed the WATO onboarding assignment to develop a ROS2 navigation stack for a differential-drive robot equipped with a camera and LiDAR. Integrated multi-sensor data for path planning and static obstacle avoidance. Designed an A*-based global path planner for efficient routing.",
       type: "CORE_SYSTEM",
       link: "https://github.com/woojae-k/wato-asd-assignment",
-      image: "public/ros2 project.png"
+      image: "/ros2_project.png"
     },
     {
       title: "Delirium Detection Handheld",
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       description: "Built an ESP32-based handheld device that automates CAM delirium screening, improving assessment consistency in low-resource clinical environments. Integrated Gemini API to dynamically generate standardized CAM questions. Implemented secure local storage and a WiFi access-point export server via a web interface.",
       type: "FIRMWARE",
       link: "https://github.com/woojae-k/delirium-detection-device",
-      image: "public/delirium detection handheld.jpg"
+      image: "/delirium_detection_handheld.jpg"
     },
     {
       title: "Containerized Home Server",
